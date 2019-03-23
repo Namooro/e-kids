@@ -58,7 +58,7 @@ def height(cm,m):
     return height
     
 def height_and_weight(mass,cm,m): #Создание новой функции перевода роста в сантиметры
-    print("Мой вес:",mass,"Мой рост:",height(cm, m))
+    print('Мой вес:',mass,'Мой рост:',height(cm, m))
 height_and_weight(45,45,1)
 ```
 
