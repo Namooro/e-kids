@@ -10,7 +10,7 @@
 
 ```python
 def func1():
-	a = 10
+    a = 10
     print(a)
 func1() #10
 print(a) #ошибка 
@@ -43,7 +43,7 @@ print(b) #10000
 ```python
 z = 'бутер'
 def func3(y):
-	print(y)
+    print(y)
     y='брод'
     print(y)
 func3(z)
@@ -64,7 +64,7 @@ print(z)#бутер
 ```python 
 c = 12345
 def func4():
-	c=555
+    c=555
     print(c)
 func4() #555
 print(c) #12345
